@@ -8,6 +8,10 @@ window.addEventListener('DOMContentLoaded', function () {
     document.querySelector('#menu').classList.toggle('is-active')
     document.querySelector('#overlay').classList.toggle('is-active')
   })
+  document.querySelector('#menu').addEventListener('click', function () {
+    document.querySelector('#menu').classList.toggle('is-active')
+    document.querySelector('#overlay').classList.toggle('is-active')
+  })
   var buttons = document.querySelectorAll('.header-burger__link'),
   index, button;
 
