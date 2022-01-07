@@ -529,10 +529,29 @@ ul {
   border: 1px solid var(--grey-color);
 }
 
-.section-work__img {
+.thumb-wrap {
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 25%;
+  height: 0;
+  overflow: hidden;
+}
+.thumb-wrap iframe,
+.thumb-wrap object,
+.thumb-wrap embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-width: 0;
+  outline-width: 0;
+}
+
+/* .section-work__img {
   background: url(../img/section-working__background.jpg) no-repeat;
   padding-top: 10px;
-}
+} */
 
 /* FAQ */
 .section-faq {
