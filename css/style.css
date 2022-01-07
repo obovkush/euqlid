@@ -162,7 +162,7 @@ ul {
   width: 30%;
   padding: 100px 15px;
   background-color: var(--grey-color);
-  transition: transform .3s ease-in-out;
+  transition: transform .8s ease-in-out;
   transform: translateX(-101%);
 }
 
