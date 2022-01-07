@@ -1,16 +1,16 @@
 window.addEventListener('DOMContentLoaded', function () {
   // Burger
   document.querySelector('#burger').addEventListener('click', function () {
-    document.querySelector('#menu').classList.toggle('is-active')
-    document.querySelector('#overlay').classList.toggle('is-active')
+    document.querySelector('#menu').classList.add('is-active')
+    document.querySelector('#overlay').classList.add('is-active')
   })
   document.querySelector('#overlay').addEventListener('click', function () {
-    document.querySelector('#menu').classList.toggle('is-active')
-    document.querySelector('#overlay').classList.toggle('is-active')
+    document.querySelector('#menu').classList.remove('is-active')
+    document.querySelector('#overlay').classList.remove('is-active')
   })
   document.querySelector('#menu').addEventListener('click', function () {
-    document.querySelector('#menu').classList.toggle('is-active')
-    document.querySelector('#overlay').classList.toggle('is-active')
+    document.querySelector('#menu').classList.remove('is-active')
+    document.querySelector('#overlay').classList.remove('is-active')
   })
   var buttons = document.querySelectorAll('.header-burger__link'),
   index, button;
@@ -22,9 +22,10 @@ window.addEventListener('DOMContentLoaded', function () {
     }
 
     function clickHandler(event) {
-      document.querySelector('#menu').classList.toggle('is-active')
-        document.querySelector('#overlay').classList.toggle('is-active')
+      document.querySelector('#menu').classList.remove('is-active')
+      document.querySelector('#overlay').classList.remove('is-active')
     }
+
 
   // Swiper  
   const swiper = new Swiper('.swiper', {
