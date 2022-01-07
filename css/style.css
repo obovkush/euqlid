@@ -999,7 +999,7 @@ ul {
 
 @media (max-width: 768px) {
   :root {
-    --swiper-pagination-bullet-horizontal-gap: 7px;
+    --swiper-pagination-bullet-horizontal-gap: 5px;
   }
  
   h1 {
