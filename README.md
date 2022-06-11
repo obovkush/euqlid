@@ -2,7 +2,7 @@
 
 <p>&nbsp;</p>
 
-### Верстка сайта на HTML+CSS+JS+JQuery Pixel Perfect по макету Figma.
+### Верстка сайта на HTML+CSS+JS+JQuery с соблюдением принципов Pixel Perfect по макету Figma.
 
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
@@ -17,4 +17,4 @@
 
 ![Demo Euqlid](/readme-assets/euqlid.gif)
 
-### Поиграть можно по [ссылке](https://obovkush.github.io/XO)
+### Демо-версия [тут](https://obovkush.github.io/euqlid)
